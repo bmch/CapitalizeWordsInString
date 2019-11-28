@@ -21,14 +21,16 @@ Once you're happy with your solution, `git push` and submit a pull request at
 ## 2. Challenge
 
 Your task is to add a prototype method to Javascript's string object.
-This method should capitalize each word in a string.
-GOOD LUCK!👍
+This method should capitalize the first letter of each word in a string.
+Good Luck!👍
 
 ### 2.1. Examples
 
 ```js
-var str = "How can mirrors be real if our eyes aren't real";
-Test.assertEquals(str.capitalizeWords(), "How Can Mirrors Be Real If Our Eyes Aren't Real");
+const str = "A sentence is the largest independent unit of grammar: it begins with a capital letter and ends with a period";
+
+str.capitalizeWords().should.equal('A Sentence Is The Largest Independent Unit Of Grammar: It Begins With A Capital Letter And Ends With A Period');
+
 Refer to Test for More Examples
 ```
 
