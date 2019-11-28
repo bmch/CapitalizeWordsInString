@@ -10,8 +10,8 @@ String.prototype.capitalizeWords = function() {
   arra.forEach(x => {
     let begin = String(x).slice(0,1);
     begin = begin.toUpperCase();
-    const string = begin + x.slice(1,);
-    console.log(string);
+    let end = x.slice(1,)
+    const string = begin + end.toLowerCase();
     capi.push(string);
   })
   return capi.join(' ');
